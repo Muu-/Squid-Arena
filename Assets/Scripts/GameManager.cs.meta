@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 81291a19667ce0e48b8b9bccea2f7bb4
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - bullet: {fileID: 400000, guid: 5cb582affa8a6fb47a59d6a281dc82fa, type: 2}
+  - bulletFolder: {instanceID: 0}
+  - nav: {fileID: 100000, guid: 329d3f80fc836cc48b9dee0d22e7ed6a, type: 2}
+  - cursor: {fileID: 400000, guid: 24d5859bb08c3e54782d8609f96e21b6, type: 2}
+  - CupPrefab: {fileID: 400000, guid: 733a3931f8e0f35498da6275a161ccff, type: 2}
+  - numberPrefab: {fileID: 100000, guid: ae875ac0bdf23e549bcdd05320eeedce, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

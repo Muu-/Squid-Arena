@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: fb460f05af1dc7e46b71f9169a299741
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - linePrefab: {fileID: 100000, guid: ca31b3bd4f6beda4299a6525690a5bc3, type: 2}
+  - arenaBordersMaterial: {fileID: 13400000, guid: 8ce6425c22ae43540a0ad615cbf26108,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
