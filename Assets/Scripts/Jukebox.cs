@@ -7,7 +7,15 @@ public class Jukebox : MonoBehaviour {
 	
 	// Use this for initialization
 	void Awake () {
-		me = this;
+		if (me == null)
+		{
+			me = this;
+		}
+		else
+		{
+			Destroy(gameObject);
+			return;
+		}
 		DontDestroyOnLoad (gameObject);
 		Play();
 	}
