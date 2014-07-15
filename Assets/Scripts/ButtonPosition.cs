@@ -46,7 +46,7 @@ public class ButtonPosition : MonoBehaviour {
 					x = Screen.width * 0.85f;
 				break;
 			}
-			pos = Camera.mainCamera.ScreenToWorldPoint(new Vector3(x, 10, Camera.mainCamera.transform.position.y - 5));
+			pos = Camera.main.ScreenToWorldPoint(new Vector3(x, 10, Camera.main.transform.position.y - 5));
 			k.Key.transform.position = new Vector3(pos.x, 1, pos.z);
 		}
 	}

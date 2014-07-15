@@ -11,22 +11,22 @@ public class AndroidStuff : MonoBehaviour {
 		// Rotate screen
 		if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft && Screen.orientation != ScreenOrientation.LandscapeLeft)
 		{
-			Camera.mainCamera.transform.position = new Vector3(0, 600, 0);
+			Camera.main.transform.position = new Vector3(0, 600, 0);
 			Screen.orientation = ScreenOrientation.LandscapeLeft;
 		}
 		if (Input.deviceOrientation == DeviceOrientation.LandscapeRight && Screen.orientation != ScreenOrientation.LandscapeRight)
 		{
-			Camera.mainCamera.transform.position = new Vector3(0, 600, 0);
+			Camera.main.transform.position = new Vector3(0, 600, 0);
 			Screen.orientation = ScreenOrientation.LandscapeRight;
 		}
 		if (Input.deviceOrientation == DeviceOrientation.Portrait && Screen.orientation != ScreenOrientation.Portrait)
 		{
-			Camera.mainCamera.transform.position = new Vector3(0, 450, 0);
+			Camera.main.transform.position = new Vector3(0, 450, 0);
 			Screen.orientation = ScreenOrientation.Portrait;
 		}
 		if (Input.deviceOrientation == DeviceOrientation.PortraitUpsideDown && Screen.orientation != ScreenOrientation.PortraitUpsideDown)
 		{
-			Camera.mainCamera.transform.position = new Vector3(0, 450, 0);
+			Camera.main.transform.position = new Vector3(0, 450, 0);
 			Screen.orientation = ScreenOrientation.PortraitUpsideDown;
 		}
 		if (Input.GetKeyDown(KeyCode.Escape))

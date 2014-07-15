@@ -77,8 +77,8 @@ public class GameManager : MonoBehaviour {
 	}
 	
 	public void NewGame() {
-		timer = 5.2f;
-		timerCount = 5;
+		timer = 3.2f;
+		timerCount = 3;
 		endTimer = 2.5f;
 		gameEnded = false;
 		players = new List<string>();
@@ -157,10 +157,10 @@ public class GameManager : MonoBehaviour {
 			
 			GameObject tmp;
 			Vector3 pos;
-			pos = Camera.mainCamera.ScreenToWorldPoint(new Vector3(16, 4, Camera.mainCamera.transform.position.y - 10));
+			pos = Camera.main.ScreenToWorldPoint(new Vector3(16, 4, Camera.main.transform.position.y - 10));
 			tmp = TextManager.me.DrawText("Menu", new Vector2(pos.x, pos.z), 3600, 12, "Game");
 			ButtonPosition.me.AddButton(tmp,ButtonPosition.Position.left);
-			pos = Camera.mainCamera.ScreenToWorldPoint(new Vector3(Screen.width - 56, 4, Camera.mainCamera.transform.position.y - 10));
+			pos = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width - 56, 4, Camera.main.transform.position.y - 10));
 			tmp = TextManager.me.DrawText("Again", new Vector2(pos.x, pos.z), 3600, 12, "Game");
 			ButtonPosition.me.AddButton(tmp, ButtonPosition.Position.right);
 		}
